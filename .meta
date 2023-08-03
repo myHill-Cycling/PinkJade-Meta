@@ -1,3 +1,5 @@
 {
-  "projects": {}
+  "projects": {
+    "applications\\home_site": "https://github.com/myHill-Cycling/PinkJade-HomeSite.git"
+  }
 }

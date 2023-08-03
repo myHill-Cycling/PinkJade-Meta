@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "applications": true,
+        "libs": true
+    }
+}

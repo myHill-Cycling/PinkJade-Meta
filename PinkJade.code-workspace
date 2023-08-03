@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "Meta",
+			"path": "."
+		},
+		{
+			"name": "Home Site",
+			"path": "applications/home_site"
+		}
+	],
+	"settings": {}
+}
