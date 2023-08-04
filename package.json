@@ -3,6 +3,7 @@
 	"version": "1.0.0",
 	"author": "Vespion",
 	"private": true,
+	"type": "module",
 	"engines": {
 		"pnpm": "^8"
 	},
@@ -12,6 +13,9 @@
 
 	},
 	"devDependencies": {
-		"meta-performant-npm": "1.0.0"
+		"meta-performant-npm": "1.0.0",
+		"eslint": "8.46.0",
+		"prettier": "3.0.1",
+		"@myhill-cycling/pinkjade-configuration": "workspace:*"
 	}
 }

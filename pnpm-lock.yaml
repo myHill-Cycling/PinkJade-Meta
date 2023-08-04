@@ -8,9 +8,18 @@ importers:
 
   .:
     devDependencies:
+      '@myhill-cycling/pinkjade-configuration':
+        specifier: workspace:*
+        version: link:libs/configuration
+      eslint:
+        specifier: 8.46.0
+        version: 8.46.0
       meta-performant-npm:
         specifier: 1.0.0
         version: 1.0.0
+      prettier:
+        specifier: 3.0.1
+        version: 3.0.1
 
   applications/home_site:
     devDependencies:
@@ -47,30 +56,18 @@ importers:
       tailwindcss:
         specifier: 3.3.3
         version: 3.3.3
+      typescript:
+        specifier: 5.1.6
+        version: 5.1.6
 
   libs/components:
     devDependencies:
       '@myhill-cycling/pinkjade-configuration':
-        specifier: workspace:*
+        specifier: 1.0.0
         version: link:../configuration
-      accessible-astro-components:
-        specifier: 2.1.0
-        version: 2.1.0
       astro:
         specifier: 2.10.1
         version: 2.10.1
-      astro-icon:
-        specifier: 0.8.1
-        version: 0.8.1
-      eslint:
-        specifier: 8.46.0
-        version: 8.46.0
-      prettier:
-        specifier: 3.0.1
-        version: 3.0.1
-      tailwindcss:
-        specifier: 3.3.3
-        version: 3.3.3
 
   libs/configuration:
     dependencies:
