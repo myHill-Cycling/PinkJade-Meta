@@ -7,7 +7,17 @@
 		{
 			"name": "Home Site",
 			"path": "applications/home_site"
+		},
+		{
+			"name": "UI Components",
+			"path": "libs/components"
+		},
+		{
+			"name": "Shared Configuration",
+			"path": "libs/configuration"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"explorer.excludeGitIgnore": false
+	}
 }

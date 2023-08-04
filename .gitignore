@@ -1,1 +1,6 @@
+/node_modules
+
+# meta repos
 /applications/home_site/
+/libs/components/
+/libs/configuration/
