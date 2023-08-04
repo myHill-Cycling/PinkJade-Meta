@@ -9,13 +9,15 @@
 	},
 	"engineStrict": true,
 	"packageManager": "pnpm@8.6.11",
-	"dependencies": {
-
+	"scripts": {
+		"prepare": "husky install"
 	},
 	"devDependencies": {
-		"meta-performant-npm": "1.0.0",
+		"@myhill-cycling/pinkjade-configuration": "workspace:*",
 		"eslint": "8.46.0",
-		"prettier": "3.0.1",
-		"@myhill-cycling/pinkjade-configuration": "workspace:*"
+		"husky": "8.0.3",
+		"lint-staged": "13.2.3",
+		"meta-performant-npm": "1.0.0",
+		"prettier": "3.0.1"
 	}
 }
