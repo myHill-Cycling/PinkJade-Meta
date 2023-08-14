@@ -16,7 +16,7 @@
 		"@myhill-cycling/pinkjade-configuration": "workspace:*",
 		"eslint": "8.46.0",
 		"husky": "8.0.3",
-		"lint-staged": "13.2.3",
+		"lint-staged": "13.3.0",
 		"meta-performant-npm": "1.0.0",
 		"prettier": "3.0.1"
 	}
